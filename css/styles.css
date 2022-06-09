@@ -1,0 +1,157 @@
+body {
+    color: #40514E;
+    margin: 0%;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+p {
+    margin :0;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size : 5.62rem;
+    margin : 50px auto 0 auto;
+}
+
+h2 {
+    font-size : 2.5rem;
+    font-weight: normal;
+    margin: 0%;
+}
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    margin : 0 0.3% 0 0.3%;
+    text-decoration: none;
+}
+
+a:hover {
+    color : rgb(34, 212, 206);
+}
+
+div {
+    background-color: #E8F9FD;
+}
+
+.top-container {
+    background-color: #E8F9FD;
+    position: relative;
+    padding-top: 200px;
+}
+
+.middle-container {
+    position: relative;
+    background-color: white;
+    margin : 0 0 3% 0;
+}
+
+.bottom-container {
+    padding-top : 1%;
+    padding-bottom: 1%;
+    margin : auto 0 auto 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right : 300px;
+    top : 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left : 300px;
+    bottom : 300px;
+}
+
+.skill-row {
+    line-height: 2;
+    margin : 100px auto 100px auto;
+    text-align: left;
+    width : 50%;
+    background-color: white;
+}
+
+.code-skill {
+    float : left;
+    width : 15%;
+    margin-right: 30px;
+}
+
+.cloud-skill {
+    float : right;
+    width: 15%;
+    padding-top : 5%;
+    margin-left: 30px;
+}
+
+.profile-pic {
+    width: 15%;
+}
+
+.btn {
+    background: #E8F9FD;
+    background-image: -webkit-linear-gradient(top, #E8F9FD, #E8F9FD);
+    background-image: -moz-linear-gradient(top, #E8F9FD, #E8F9FD);
+    background-image: -ms-linear-gradient(top, #E8F9FD, #E8F9FD);
+    background-image: -o-linear-gradient(top, #E8F9FD, #E8F9FD);
+    background-image: linear-gradient(to bottom, #E8F9FD, #E8F9FD);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 3px #11999E;
+    -moz-box-shadow: 0px 1px 3px #11999E;
+    box-shadow: 0px 1px 3px #11999E;
+    font-family: Arial;
+    color: #11999E;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #E8F9FD;
+    background-image: -webkit-linear-gradient(top, #E8F9FD, #E8F9FD);
+    background-image: -moz-linear-gradient(top, #E8F9FD, #E8F9FD);
+    background-image: -ms-linear-gradient(top, #E8F9FD, #E8F9FD);
+    background-image: -o-linear-gradient(top, #E8F9FD, #E8F9FD);
+    background-image: linear-gradient(to bottom, #E8F9FD, #E8F9FD);
+    text-decoration: none;
+  }
+
+  .profile {
+      margin : 0;
+      background-color : white;
+      line-height: 3;
+      padding-bottom: 3%;
+      padding-top : 3%
+  }
+
+  .skills {
+    margin : 0 auto 0 auto;
+    position : relative;
+    width : 75%;
+    background-color : white;
+    padding-top : 3%;
+  }
+
+.contact-me {
+    background-color: white;
+    margin : 40px auto 60px; /*left (top/bottom) right*/
+    width : 40%;
+    line-height: 2.5;
+    /* padding-top: 3%; */
+}
+
